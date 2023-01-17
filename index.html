@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Пример создания всплывающего окна при загрузке сайта, с помощью css3 и небольшого javascript">
+		<meta name="keywords" content="всплывающее окно, при загрузке сайта, модальное окно, css3, javascript">
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Угарная Кончалка</title>
+	</head>
+		<!-- Модальное Окно  -->
+		<!--<div id="overlay">
+			<div class="popup">
+				<h2>Приветствую ТОБИ в Угарной Кончалке</h2>
+				<div class="pl-left">
+					<img src="..//2. Кончалка/img/Modalnoe Okno/1.png">Как тебе этот Разъёб)))</div>
+				<div class="pl-right">
+					<img src="..//2. Кончалка/img/Modalnoe Okno/2.png">Суперская хуета, не правда ли)))</div>
+				<button class="close" title="Закрыть" onclick="document.querySelector('#overlay').style.display='none';"></button>
+			<div class="video">У что же чижик, теперь ты тут и будем определять для начало кто ты по жизни</div>
+				<div class="video_pos">
+					<img src="..//2. Кончалка/img/Billy/Poster.jpg"  alt="lorem"></div>
+			</div>-->
+	<body>
+			<div>
+				<video autoplay muted loop id="myVideo" onTimeUpdate="progressUpdate()">
+					<source src="..//2. Кончалка/Video/FlexAir 5. Slav and Furious.mp4">
+				</video>
+			</div>
+			</div>
+			<div class="barContainer">
+				<div id="durationBar"></div>
+				<div id="positionBar"><span id="displayStatus">0</span></div>
+				<div class="Controls_main">
+					<div class="buttons">
+						<div class="top">
+							<button class="ZerobarContainer" onclick="mute_unmute()"><img src="./img/Controls/Mute.png" alt=""></button>
+						</div>
+						<div class="center">
+							<button class="ThreebarContainer" onclick="stop()"><img src="./img/Controls/Stop.png" alt=""></button>
+							<button class="TwobarContainer" onclick="pause()"><img src="./img/Controls/Paused.png" alt=""></button>
+							<button class="OnebarContainer" onclick="play()"><img src="./img/Controls/Play.png" alt=""></button>
+						</div>
+						<div class="bottom">
+							<button class="FourbarContainer" onclick="speedUp()"><img src="./img/Controls/Slower.png" alt=""></button>
+							<button class="SixbarContainer" onclick="normalSpeed()"><img src="./img/Controls/NormalSpeed.png" alt=""></button>
+							<button class="FivebarContainer" onclick="slowDown()"><img src="./img/Controls/Faster.png" alt=""></button>
+						</div>
+						
+						
+					</div>
+				</div>
+				</video>
+			</div>
+			<div>
+				<div class="Main">Угарная Кончалка</div>
+				<div class="Main_UK">Это Вводная страница для презинтации того что могу</div>
+				<div class="Main_UK1"><a href=".//ПодСайт_1/index.html">Кликай сюда и да начнется Разъёб</a></div>
+			</div>
+	<script src="..//2. Кончалка/js/popup.js"></script>
+	<script src="..//2. Кончалка/js/Begin.js"></script>
+	<script src="..//2. Кончалка/js/BackGround.js"></script>
+	</body>
+</html>
+
